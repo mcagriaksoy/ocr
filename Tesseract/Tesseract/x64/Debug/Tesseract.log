@@ -1,0 +1,25 @@
+﻿  Source2.cpp
+c:\tesseract-ocr\include\tesseract\helpers.h(33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\tesseract-ocr\include\tesseract\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+c:\tesseract-ocr\include\tesseract\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+c:\tesseract-ocr\include\tesseract\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\tesseract-ocr\include\tesseract\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\tesseract-ocr\include\leptonica\environ.h(277): warning C4005: 'snprintf': macro redefinition
+  c:\tesseract-ocr\include\tesseract\platform.h(33): note: see previous definition of 'snprintf'
+c:\tesseract-ocr\include\leptonica\pix.h(169): warning C4305: 'initializing': truncation from 'double' to 'l_float32'
+c:\tesseract-ocr\include\leptonica\pix.h(171): warning C4305: 'initializing': truncation from 'double' to 'l_float32'
+c:\users\organic\documents\visual studio 2015\projects\tesseract\tesseract\source2.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+Source2.obj : error LNK2019: unresolved external symbol "public: __cdecl tesseract::TessBaseAPI::TessBaseAPI(void)" (??0TessBaseAPI@tesseract@@QEAA@XZ) referenced in function main
+Source2.obj : error LNK2019: unresolved external symbol "public: int __cdecl tesseract::TessBaseAPI::Init(char const *,char const *,enum tesseract::OcrEngineMode,char * *,int,class GenericVector<class STRING> const *,class GenericVector<class STRING> const *,bool)" (?Init@TessBaseAPI@tesseract@@QEAAHPEBD0W4OcrEngineMode@2@PEAPEADHPEBV?$GenericVector@VSTRING@@@@3_N@Z) referenced in function "public: int __cdecl tesseract::TessBaseAPI::Init(char const *,char const *)" (?Init@TessBaseAPI@tesseract@@QEAAHPEBD0@Z)
+Source2.obj : error LNK2019: unresolved external symbol "public: void __cdecl tesseract::TessBaseAPI::SetImage(struct Pix const *)" (?SetImage@TessBaseAPI@tesseract@@QEAAXPEBUPix@@@Z) referenced in function main
+Source2.obj : error LNK2019: unresolved external symbol "public: char * __cdecl tesseract::TessBaseAPI::GetUTF8Text(void)" (?GetUTF8Text@TessBaseAPI@tesseract@@QEAAPEADXZ) referenced in function main
+Source2.obj : error LNK2019: unresolved external symbol pixRead referenced in function main
+C:\Tesseract-OCR\lib\libtesseract302.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Tesseract-OCR\lib\liblept168.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Tesseract-OCR\lib\liblept168d.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+c:\users\organic\documents\visual studio 2015\Projects\Tesseract\x64\Debug\Tesseract.exe : fatal error LNK1120: 5 unresolved externals
